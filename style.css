@@ -1,0 +1,159 @@
+/* 
+*{
+    margin: 0;
+    padding: 0 15px
+}
+
+body{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    
+
+}
+*/
+
+body{
+    width: 100%;
+    margin: auto;
+    z-index: 1;
+    padding: 10px;
+    font-family: 'Alegreya', serif !important;
+}
+
+.center {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+.nav{
+    background-color:     #dc3545;
+}
+
+.dropdown-menu{
+    background-color:     #dc3545;
+}
+pre{
+    font-family: 'Alegreya', serif !important;
+
+}
+
+.logo{
+    height: 50%;
+}
+
+.imagen-video{
+    height: 500px;
+    width: 100%;
+}
+
+.carousel{
+    margin-top: 100px;  
+    margin-bottom: 50px;
+}
+.carousel-item img{
+    height: 370px;
+}
+/*
+.carousel, .carousel-inner > .item > img {
+    height: 100px;
+  }
+*/
+
+.color{
+    background-color: #dc3545;
+    padding-bottom: 50px;
+}
+
+.boton-info{
+    background-color: #dc3545;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.boton-info a{
+    text-decoration: none;
+    color: white;
+}
+
+.galeria-home{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.gastronomia{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+
+.lugares{
+
+    background-image: url("../webCiudad/img/cupulas.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+ 
+}
+
+#lugares {
+    padding-top: 100px;
+    width:100%;
+    text-align:center;
+}
+
+footer{
+    padding: 100px 150px;
+    text-align: center;
+    height: 400px;
+    background-color: #dc3545;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+}
+
+.redes{
+    float: right;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 140px;
+}
+
+.footer-links ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-links ul {
+    padding: 0;
+}
+/*MEDIDAS PARA TRABAJAR*/
+
+@media only screen and (min-width:768px) and (max-width:940px){
+/*TABLE*/
+}
+
+@media only screen and (min-width:320px) and (max-width:767px){
+/*CELULAR*/
+
+.pan{
+    width: 300px !important;
+    height: auto;
+}
+}
+
