@@ -75,7 +75,7 @@ pre{
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 7px 15px 1px #000000;
 }
 
 .boton-info a{
@@ -146,14 +146,35 @@ footer ul li a{
 
 @media only screen and (min-width:768px) and (max-width:940px){
 /*TABLE*/
+.lugares img{
+    width: 170px;
 }
+
+footer{
+    padding: 100px 10px;
+    padding-left: 70px;
+}
+
 
 @media only screen and (min-width:320px) and (max-width:767px){
 /*CELULAR*/
+.imagen-video{
+    height: 300px;
+    width: 100%;
+}
 
 .pan{
     width: 300px !important;
     height: auto;
 }
+
+.lugares img{
+    width: 100px;
 }
 
+footer{
+    height: 700px;
+    padding: 2px 2px;
+}
+
+}
